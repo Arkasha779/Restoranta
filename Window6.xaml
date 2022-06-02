@@ -1,0 +1,31 @@
+﻿<Window x:Class="Restoranta.Window6"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Restoranta"
+        mc:Ignorable="d"
+        Title="Меню" Height="450" Width="800">
+    <Grid>
+        <ListBox HorizontalAlignment="Left" Height="399" Margin="10,10,0,0" VerticalAlignment="Top" Width="725">
+            <MenuItem Header="Глазунья с ветчиной"/>
+            <MenuItem Header="Зелёные бутерброды"/>
+            <MenuItem Header="Омлет"/>
+            <Separator/>
+            <MenuItem Header="Щи с мясом и сметаной"/>
+            <MenuItem Header="Бифштекс"/>
+            <MenuItem Header="Шашлык"/>
+            <MenuItem Header="Суп из плавленых сырков с овощами"/>
+            <Separator/>
+            <MenuItem Header="Салат из капусты с маслом"/>
+            <MenuItem Header="Салат из помидоров с оливками"/>
+            <MenuItem Header="Салат из отварной свеклы с чесноком и майонезом"/>
+            <MenuItem Header="Салат из редиски"/>
+            <Separator/>
+            <MenuItem Header="Вино сухое красное"/>
+            <MenuItem Header="Чай"/>
+            <MenuItem Header="Кофе"/>
+        </ListBox>
+        <Button x:Name="b15" Content="Назад" HorizontalAlignment="Left" Margin="735,389,0,0" VerticalAlignment="Top" Width="47" Click="b15_Click"/>
+    </Grid>
+</Window>
